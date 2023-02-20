@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './App.css';
 
-function App() {
+function Songs() {
   const [like, setLike] = useState({
     alors: 0,
     papaoutai: 0,
@@ -16,8 +16,6 @@ function App() {
 
   return (
     <div id='div'>
-      <h1>Stromae</h1>
-      <p>Stromae (born Paul Van Haver on March 12, 1985) is a Belgian singer, songwriter, rapper, and record producer. He first gained international recognition with his song "Alors on danse" in 2009, which became a hit in many European countries and beyond. Since then, he has released two critically acclaimed studio albums, "Cheese" (2010) and "Racine Carrée" (2013), and has become known for his unique blend of electronic, hip-hop, and world music influences.</p>
 
       <h2>Songs</h2>
       <h3>Alors on dance - 2009</h3>
@@ -43,4 +41,4 @@ function App() {
   );
 }
 
-export default App;
+export default Songs;

@@ -1,13 +1,13 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App'
+import Songs from './Songs'
 import Form from './Form'
-// import './index.css'
+import Bio from './Bio'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <>
-    <App />
-    <hr></hr>
+    <Bio />
+    <Songs />
     <Form />
   </>
 
