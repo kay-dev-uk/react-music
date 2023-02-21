@@ -1,7 +1,6 @@
-import { useState } from 'react';
-import './App.css';
+import React, { useState } from 'react'
 
-function Form(){
+const Form = () => {
     const [inputText, setInputText] = useState('');
     const [songName, setSongName] = useState(document.getElementById('div'));
 
@@ -32,10 +31,4 @@ function Form(){
     )
 }
 
-
-
-export default Form;
-
-
-
-
+export default Form
