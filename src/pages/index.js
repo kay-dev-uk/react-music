@@ -1,3 +1,5 @@
 export { default as Home } from './Home'
 export { default as Songs } from './Songs'
 export { default as Form } from './Form'
+export { default as MostLiked } from './MostLiked'
+export { default as CatFact } from './CatFact'
