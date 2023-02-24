@@ -1,20 +1,18 @@
-import React, { useState } from 'react'
-import { Bio, Songs, Form } from './components'
+import React from 'react'
+import { Routes, Route } from 'react-router-dom'
+import { Home, Songs, Form } from './pages'
+import { NavBar } from './layout'
 import './App.css'
 
 const App = () => {
-//   const [inputText, setInputText] = useState('')
-//   const [todos, setTodos] = useState([{text: 'Teach React'}, {text: 'Tidy Desk'}, {text: 'Cook'}])
-//   const handleClick = (e) => {
-//     console.log(e.target.innerText)
-//   }
-
   return (
-    <>
-      <Bio />
-      <Songs />
-      <Form />
-    </>
+    <div className='App'>
+      <NavBar />
+      <Routes>
+        <Route path='/' element={<Home />} ></Route>
+        <Route path='/songs' element={<Songs />} ></Route>
+      </Routes>
+    </div>
   )
 }
 

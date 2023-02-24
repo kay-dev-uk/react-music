@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Bio = () => {
+const Home = () => {
   return (
     <div>
         <h1>Stromae</h1>
@@ -9,4 +9,4 @@ const Bio = () => {
   )
 }
 
-export default Bio
+export default Home
